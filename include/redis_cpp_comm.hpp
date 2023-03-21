@@ -24,7 +24,7 @@ namespace ProstmorphBridge
 using ImagePixelType = unsigned char;
 using ImageSliceType = itk::Image<ImagePixelType, 2>;
 using ImageType = itk::Image<ImagePixelType, 3>;
-using FieldPixelType = float;  // TODO change vector pixel type
+using FieldPixelType = float;
 using FieldImageType = itk::Image<itk::Vector<FieldPixelType, 3>, 3>;
 
 class Connector
